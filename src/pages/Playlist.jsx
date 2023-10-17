@@ -24,7 +24,7 @@ const Playlist = () => {
   const deletePlaylist = async () => {
     setLoading(true);
     const { data, status } = await axios.delete(
-      `http://localhost:1337/api/v1/playlist/delete/${id}`,
+      `https://music-player-backend-6il8.onrender.com/api/v1/playlist/delete/${id}`,
       { headers }
     );
     if (status === 200) {

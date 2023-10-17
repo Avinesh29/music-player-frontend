@@ -1,3 +1,3 @@
 export const CONFIG = {
-    URL : "http://localhost:1337"
+    URL : "https://music-player-backend-6il8.onrender.com"
 }

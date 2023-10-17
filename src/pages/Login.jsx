@@ -15,7 +15,7 @@ const Login = () => {
 
   let __URL__ ;
   if ( document.domain === "localhost" ) {
-    __URL__ = "http://localhost:1337";
+    __URL__ = "https://music-player-backend-6il8.onrender.com";
   } else {
     __URL__ = "";
   }
