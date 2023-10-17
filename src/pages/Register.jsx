@@ -12,12 +12,12 @@ const Register = () => {
     setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  let __URL__ ;
-  if ( document.domain === "localhost" ) {
-    __URL__ = "https://music-player-backend-6il8.onrender.com";
-  } else {
-    __URL__ = "";
-  }
+  let __URL__ = "https://music-player-backend-6il8.onrender.com"
+  // if ( document.domain === "localhost" ) {
+  //   __URL__ = "https://music-player-backend-6il8.onrender.com";
+  // } else {
+  //   __URL__ = "";
+  // }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
